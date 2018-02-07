@@ -1,0 +1,26 @@
+// sample data file for CMSC 335, Spring 2016
+// File: a_min.txt
+// Nicholas Duchon
+// Mar 1, 2016
+
+// Parties format:
+//    p:<index>:<name>
+p : 10000 : Congregation
+
+// Creatures format:
+//    c:<index>:<type>:<name>:<party>:<empathy>:<fear>:<carrying capacity>[:<age>:<height>:<weight>]
+c : 20000 : Woman : Elissa : 10000 :  80 :  55 : 128 :  413.19 :  127.79 :  399.40
+c : 20001 :   Man :   Matt : 10000 :  80 :  74 : 286 :  461.89 :  147.88 :  300.63
+
+// Artifacts format:
+//    a:<index>:<type>:<creature>[:<name>]
+a : 40000 :   Stone : 20000 : Ruby
+a : 40001 :   Stone : 20000 : Chrysoprase
+a : 40007 :   Stone : 20001 : Chrysoprase
+a : 40008 :   Stone : 20001 : Dumortierite
+
+// Jobs for creatures
+// measure time in seconds
+//    j:<index>:<name>:<creature index>:<time>[:<required artifact:type>:<number>]*
+j : 50000 : Swing : 20000 :   5.00 : Stone : 3
+j : 50001 :   Hit : 20001 :   5.00 : Stone : 3
